@@ -1,77 +1,91 @@
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
+  font-family:  Arial, sans-serif;
+  margin:  0;
+  padding:  0;
 }
   
   #navbar {
-  background-color: #333;
-  color: #fff;
-  padding:  10px 20px;
-}
-  
-  #navbar header {
-  font-size: 24px;
-  margin-bottom: 10px;
+  background-color:  #333;
+  overflow:  hidden;
 }
   
   #navbar ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
+  list-style-type:  none;
+  margin:  0;
+  padding:  0;
 }
   
   #navbar ul li {
-  display: inline;
-  margin-right: 20px;
+  float:  left;
 }
   
   #navbar ul li a {
-  color: #aa80ff;
-  text-decoration: none;
+  display:  block;
+  color:  white;
+  text-align:  center;
+  padding:  14px 16px;
+  text-decoration:  none;
 }
   
   #navbar ul li a:hover {
-  color: #ccc;
-}
-  
-  #main-doc {
-  padding: 20px;
+  background-color:  #111;
 }
   
   .main-section {
-  margin-bottom: 40px;
+  padding:  20px;
 }
   
-  .main-section header {
-  font-size: 20px;
-  margin-bottom: 10px;
+  .main-section h1 {
+  font-size:  24px;
 }
   
   .main-section p {
-  line-height: 1.6;
+  font-size:  16px;
 }
   
-  code {
-  display: block;
-  background-color: #f4f4f4;
-  padding: 10px;
-  margin-top: 10px;
-  border-radius: 5px;
+  .footer {
+  background-color:  #333;
+  color:  white;
+  text-align:  center;
+  padding:  10px 0;
+  position:  fixed;
+  left:  0;
+  bottom:  0;
+  width:  100%;
 }
   
-  @media only screen and (max-width: 600px) {
-    #navbar {
-    padding:  10px;
-}
-  
-    #navbar header {
+  .main-section header {
     font-size: 20px;
-}
-  
-    #navbar ul li {
-    display: block;
-    margin-bottom:10px;
-    }
+    margin-bottom: 20px;
   }
+  
+  .main-section .content {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  .main-section .content p {
+    margin-bottom: 20px;
+  }
+  
+  .footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
+  .main-section header {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-bottom: 2px solid #ddd;
+  }
+  
+  .main-section header h2 {
+    margin: 0;
+  }
+  
   
