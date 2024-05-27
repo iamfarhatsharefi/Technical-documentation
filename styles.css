@@ -44,7 +44,7 @@ body {
 }
   
 .footer {
-  background-color:#333;
+  background-color: #333;
   color: white;
   text-align: center;
   padding: 10px 0;
@@ -55,35 +55,35 @@ body {
 }
  
 .main-section header {
-    font-size: 20px;
-    margin-bottom: 20px;
+  font-size: 20px;
+  margin-bottom: 20px;
 }
  
 .main-section .content {
-    font-size: 18px;
-    line-height: 1.5;
+  font-size: 18px;
+  line-height: 1.5;
 }
  
 .main-section .content p {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
   
 .footer a {
-    color: white;
-    text-decoration: none;
-    margin: 0 10px;
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
 }
   
 .footer a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
  
 .main-section header {
-    background-color: #f4f4f4;
-    padding: 10px;
-    border-bottom: 2px solid #ddd;
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-bottom: 2px solid #ddd;
 }
   
 .main-section header h2 {
-    margin: 0;
+  margin: 0;
 }
