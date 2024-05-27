@@ -59,6 +59,11 @@ body {
   font-size: 24px;
 }
 
+.main-section header {
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-bottom: 2px solid #ddd;
+}
 .main-section p {
   font-size: 16px;
 }
