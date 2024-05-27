@@ -8,17 +8,17 @@ body {
   background-color: #333;
   overflow: hidden;
 }
-  
+
 #navbar ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-  
+ 
 #navbar ul li {
   float: left;
 }
-  
+ 
 #navbar ul li a {
   display: block;
   color: white;
@@ -26,7 +26,7 @@ body {
   padding: 14px 16px;
   text-decoration: none;
 }
-  
+
 #navbar ul li a:hover {
   background-color: #111;
 }
@@ -53,17 +53,17 @@ body {
   bottom: 0;
   width: 100%;
 }
-  
+ 
 .main-section header {
     font-size: 20px;
     margin-bottom: 20px;
 }
-  
+ 
 .main-section .content {
     font-size: 18px;
     line-height: 1.5;
 }
-  
+ 
 .main-section .content p {
     margin-bottom: 20px;
 }
@@ -77,7 +77,7 @@ body {
 .footer a:hover {
     text-decoration: underline;
 }
-  
+ 
 .main-section header {
     background-color: #f4f4f4;
     padding: 10px;
@@ -87,5 +87,3 @@ body {
 .main-section header h2 {
     margin: 0;
 }
-  
-  
