@@ -24,7 +24,7 @@ body {
   bottom: 0;
   width: 100%;
 }
- 
+
 #navbar {
   background-color: #333;
   overflow: hidden;
@@ -68,6 +68,7 @@ body {
 
 .main-section p {
   font-size: 16px;
+  margin-bottom: 20px;
 }
 
 .main-section header {
@@ -78,16 +79,6 @@ body {
 .main-section .content {
   font-size: 18px;
   line-height: 1.5;
-}
-
-.main-section .content p {
-  margin-bottom: 20px;
-}
-
-.main-section header {
-  background-color: #f4f4f4;
-  padding: 10px;
-  border-bottom: 2px solid #ddd;
 }
 
 .main-section header h2 {
