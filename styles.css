@@ -87,3 +87,6 @@ body {
  .main-section header h2 {
   margin: 0;
 }
+@media (max-width: 800px) {
+
+}
