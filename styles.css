@@ -3,6 +3,7 @@ body {
   margin: 0;
   padding: 0;
 }
+
 .footer a {
   color: white;
   text-decoration: none;
@@ -64,6 +65,7 @@ body {
   padding: 10px;
   border-bottom: 2px solid #ddd;
 }
+
 .main-section p {
   font-size: 16px;
 }
