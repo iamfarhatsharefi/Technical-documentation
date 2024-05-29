@@ -1,55 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gucci Landing Page</title>
-  <link rel="stylesheet" href="styles.css" type="text/css">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="styles.css">
+  <title>HTML Documentation</title>
 </head>
 <body>
-  <header id="header">
-    <img id="header-img" src="https://th.bing.com/th?id=OIP.eq-ifWYf39Xk-pOvmI_NQgHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2" alt="Gucci Logo">
-    <nav id="nav-bar">
-      <ul>
-        <li><a href="#about-gucci" class="nav-link">About GUCCI</a></li>
-        <li><a href="#products" class="nav-link">Products</a></li>
-        <li><a href="#contact" class="nav-link">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <section id="about-gucci">
-      <h1>About GUCCI</h1>
-      <p>Gucci is an Italian luxury fashion brand renowned for its high-quality clothing, accessories, and leather goods.</p>
-      <p>History: Gucci was founded in Florence, Italy, in 1921 by Guccio Gucci. Initially, it started as a maker of fine leather goods, primarily luggage and saddlery.
-      <a href="https://www.gucci.com/us/en/st/about-us" target="_blank" rel="noopener">Read more</a></p>
-    </section>
-    <section id="products">
-      <h2>Products</h2>
-      <p>Gucci is a renowned luxury fashion brand known for its high-end clothing, accessories, and fragrances. Some of its iconic products include:</p>
-      <ul>
-        <li><strong>Handbags:</strong> GG Marmont, Dionysus, and Soho Disco bags.</li>
-        <li><strong>Shoes:</strong> Loafers, sneakers, boots, and sandals with signature details.</li>
-        <li><strong>Clothing:</strong> Ready-to-wear collections for men, women, and children.</li>
-        <li><strong>Watches and Jewelry:</strong> Italian craftsmanship with modern design.</li>
-      </ul>
-    </section>
-    <section id="contact">
-      <h2>Contact Us</h2>
-      <p>For inquiries, feedback, or more information about our products and services, please reach out to us. We are committed to providing exceptional customer service and look forward to assisting you.</p>
-      <form id="form" action="https://www.freecodecamp.com/email-submit">
-        <label for="email">Email:</label>
-        <input name="email" type="email" id="email" placeholder="Enter your email" required>
-        <input type="submit" id="submit" value="Submit">
-      </form>
-    </section>
-  </main>
-  <footer>
-    <section id="product-video">
-      <h2>Product Video</h2>
-      <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/6OY2nDhZY1c" frameborder="0" allowfullscreen loading="lazy"></iframe>
-    </section>
-  </footer>
+   <nav id="navbar">
+     <header>HTML Documentation</header>
+     <ul>
+       <li><a class="nav-link" href="#Definition_and_history_of_HTML">Definition and history of HTML</a></li>
+       <li><a class="nav-link" href="#HTML_role_in_web_development">HTML role in web development</a></li>
+       <li><a class="nav-link" href="#structure_of_an_HTML_document">Structure of an HTML document</a></li>
+       <li><a class="nav-link" href="#HTML_tags_and_attributes">HTML tags and attributes</a></li>
+       <li><a class="nav-link" href="#HTML_accessibility">HTML accessibility</a></li>
+     </ul>
+   </nav>
+
+   <main id="main-doc">
+     <section class="main-section" id="Definition_and_history_of_HTML">
+       <header>Definition and history of HTML</header>
+       <p>HTML is the standard markup language used to create and structure web pages.</p>
+       <p>HTML was first developed in the early 1990s by Tim Berners-lee, a scientist at CERN. Berners-lee had the idea of creating a way to share information and collaborate across the internet.</p>
+       <p>Some of the key features of HTML 5 include:</p>
+       <ol>
+         <li>semantic elements</li>
+         <li>improved multimedia support with the video and audio</li>
+         <li>Enhanced form controls and input types</li>
+         <li>Offline capabilities and local storage</li>
+         <li>canvas element for dynamic, scriptable graphics</li>
+       </ol>
+     </section>
+
+     <section class="main-section" id="HTML_role_in_web_development">
+       <header>HTML role in web development</header>
+       <p>HTML plays a crucial role in web development, serving as the backbone for creating and structuring web pages.</p>
+       <p>HTML provides the basic structure and organization of a web page's content. It defines the different elements, such as headings, paragraphs, lists, and tables, that make up the content of a web page.</p>
+     </section>
+
+     <section class="main-section" id="structure_of_an_HTML_document">
+       <header>Structure of an HTML document</header>
+       <p>An HTML document is composed of a series of elements, which are defined using tags enclosed in angle brackets (&lt; &gt;). These tags tell the browser how to interpret and display the content within the document.</p>
+       <p>The structure of an HTML document is crucial, as it ensures that web browsers can correctly interpret and display the content.</p>
+     </section>
+
+     <section class="main-section" id="HTML_tags_and_attributes">
+       <header>HTML tags and attributes</header>
+       <p>HTML tags are the building blocks of web pages, defining the structure and semantics of the content.</p>
+       <p>Each HTML tag has a specific purpose and effect on the way the content is displayed.</p>
+     </section>
+     
+     <section class="main-section" id="HTML_accessibility">
+       <header>HTML accessibility</header>
+       <p>Accessibility is a critical consideration in web development, ensuring that web content and applications are usable and inclusive for people with disabilities.</p>
+       <p>When creating accessible HTML, the goal is to make the content and functionality perceivable, operable, understandable, and robust for users with varying abilities.</p>
+       <code>
+         <div w3-include-html="content.html"></div>
+       </code> 
+       <code>
+         <div w3-include-html="content.html"></div>
+       </code>
+       <code>
+         <div w3-include-html="content.html"></div>
+       </code>
+       <code>
+         <div w3-include-html="content.html"></div>
+       </code>
+       <code>
+         <div w3-include-html="h1.html"></div>
+       </code>   
+     </section>
+   </main> 
 </body>
 </html>
