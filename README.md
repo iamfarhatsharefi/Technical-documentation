@@ -7,8 +7,6 @@ HTML Documentation
 
 This is a technical documentation page for hyper text markup language it contains on itself an html file and css file.
 
-## Demo 📸
-https://www.linkedin.com/in/farhat-sharefi-13a101309?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
 
 ## Technologies Used 🛠️
 
@@ -17,18 +15,12 @@ https://www.linkedin.com/in/farhat-sharefi-13a101309?utm_source=share&utm_campai
 - CSS
 
 ## Installation 💻
-
-first of all you should install these apps:
-github
-gitbash
-freecodecamp
-
-after that u have to log in to your own account or sign up by creating a new account.
-
-also seeing my project you have to clone my prokect in your local machine.
-this is my ssh you can copy and paste in your github
-git@github.com:iamfarhatsharefi/Technical-documentation.git
--freecodecamp is for runing my code that yoy can be sure that the project is correct.
+## Installation 💻
+Installation and Setup Instructions:
+Clone the Repository:
+git clone git@github.com:iamfarhatsharefi/Technical-documentation.git
+Navigate to the Project Directory:
+cd Technical documentation
 
 ## Usage 🎯
 
@@ -56,25 +48,5 @@ Replace repository with the name of the cloned repository
 By following this structure, you can create informative and visually appealing web pages that adhere to modern web standards.
 
 ## Author 👩‍💻
-
-- LinkedIn:https://www.linkedin.com/in/farhat-sharefi-13a101309?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app 
-- Email: sharefifarhat@gmail.com
-
-## Contributing 🤝
-first off, thanks for taking the time to contribute! 🎉
-
-The following is a set of guidelines for contributing to this project. These are mostly guidelines, not rules. Use your best judgment, and feel free to propose changes to this document in a pull request.
-
-## How to Contribute
-
-### Reporting Bugs
-
-If you find a bug, please create an issue on and include:
-- A clear and descriptive title.
-- A detailed description of the problem.
-- Steps to reproduce the issue.
-- Any other information that might be useful.
-
-## License 📜
-
-Thanks again for your interest in contributing!
+- [Linkedin](https://www.linkedin.com/in/farhat-sharefi-13a101309?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
+- [Email](sharefifarhat@gmail.com)
